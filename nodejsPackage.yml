@@ -25,7 +25,7 @@ steps:
 
 - script: 
     npm test
-  displayname: 'npm test'
+  # displayname: 'npm test'
 
 - task: CopyFiles@2
   inputs:
